@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">+
     <title>Autoryzacja</title>
     <link rel="stylesheet" href="style-login.css">
     <script src="script.js"></script>
@@ -13,19 +13,19 @@
     <form>
         <div class="form-group">
             <label for="inputUsername">Imię</label>
-            <input name="username" type="text" class="form-control" placeholder="WPISZ_SWOJE_IMIĘ">
+            <input name="username" type="text" class="form-control" placeholder="WPISZ_SWOJE_IMIĘ" autocomplete="username">
         </div>
-        <div class=" form-group ">
+        <div class=" form-group">
             <label for="inputPassword ">Nazwisko</label>
-            <input name="password " type="text " class="form-control " placeholder="WPISZ_SWOJE_NAZWISKO">
+            <input name="password " type="text " class="form-control " placeholder="WPISZ_SWOJE_NAZWISKO" autocomplete="">
         </div>
-        <div class="loginButton ">
-            <button type="button " class="btn btn-primary " onclick="login(this.form); ">ZALOGUJ_SIĘ</button>
+        <div class="loginButton">
+            <button type="button " class="btn btn-primary " onclick="login(this.form);">ZALOGUJ_SIĘ</button>
         </div>
 
     </form>
     <h3 id="zakaz" style="display: none; color: brown; ">!--ZAKAZ_WSTĘPU--!</h3>
-    <script src="script.js "></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
