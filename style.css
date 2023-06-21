@@ -1,0 +1,25 @@
+body {
+    font-family: "Gotham SSM Medium", "Segoe UI", "Trebuchet MS", "Tahoma", sans-serif;
+}
+
+#videos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.vid {
+    max-width: 33%;
+    background: rgb(195, 34, 34);
+    background: linear-gradient(120deg, rgb(0, 195, 255) 0%, rgb(204, 45, 253) 100%);
+    overflow: hidden;
+    border-radius: 20%;
+    transition: cubic-bezier(0.95, 0.05, 0.795, 0.035) 1s all;
+}
+
+.vid video {
+    max-width: 100%;
+}
+
+.vid:hover {
+    transform: scale(1.1);
+}
